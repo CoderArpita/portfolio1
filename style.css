@@ -1,0 +1,255 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Merriweather:ital@1&family=Source+Serif+4:opsz@8..60&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: rgb(169, 160, 160);
+     width: 20vw;
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 20px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 15px;
+    padding: 15px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    
+ width: 100vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    width: 60vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Serif 4', serif;
+}
+
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.buttons{
+    margin-top: 24px;
+}
+
+.button1{
+    padding: 9px 14px;
+   border-radius: 12px;
+   color: rgb(158, 169, 169);
+   background-color: rgb(25, 47, 66);
+   font-weight: bold;
+   margin: 0 3px;
+   cursor: pointer;
+}
+
+.button1:hover{
+    background-color: rgb(25, 24, 23);
+    color: rgb(214, 214, 40);
+}
+
+.btn {
+   padding: 9px 14px;
+   border-radius: 12px;
+   font-weight: bold;
+   margin: 0 3px;
+   color: rgb(158, 169, 169);
+   background-color: rgb(25, 47, 66);
+ cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 4px;
+    padding: 3px 2px;
+    margin: 3px 0;
+    color: rgb(158, 169, 169);
+   background-color: rgb(25, 47, 66);
+}
+
+.btn:hover {
+    background-color: rgb(25, 24, 23);
+    color: rgb(214, 214, 40);
+}
+
+.arpita.jpg {
+    width: 200px;
+    height: 50vh;
+}
+
+.contactform{
+    padding: 0 10px;
+    padding-top: 50px;
+    font-family:'Source Serif 4', serif;
+}
+
+.contactform h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.contactform form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 30vw;
+    border-radius: 6px;
+    margin: 5px 0;
+    padding: 2px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color:rgb(72, 72, 124);
+    margin: 0 3px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+     width: 15px;
+     margin: 2px 0;
+}
+
+.btn-btn-sm{
+    padding: 2px 3px;
+   border-radius: 7px;
+   color: rgb(158, 169, 169);
+   background-color: rgb(25, 47, 66);
+   font-weight: bold;
+   margin: 0 5px;
+   cursor: pointer;
+}
+
+.btn-btn-sm:hover{
+    background-color: rgb(25, 24, 23);
+    color: rgb(214, 214, 40);
+}
+
+.projectItem {
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+h1{
+    font-family: 'Merriweather', serif;
+    margin: 30px;
+}
+
+
+p{
+    font-family:'Source Serif 4', serif;
+
+}
+
+.intro h1{
+    font-family:'Source Serif 4', serif;
+    margin:6px;
+
+}
+
+.intro p{
+    font-family: 'Merriweather', serif;
+    color: brown;
+    
+
+}
+
+.skills h1{
+    font-family:'Source Serif 4', serif;
+    margin:6px;
+    align-content: center;
+    width: 30px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.skills p{
+    font-family: 'Merriweather', serif;
+
+}
+
+.skillscontainer{
+    padding: 20px;
+}
+
+.skills{
+    width: 30px;
+    height: 30px;
+    align-content: center;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-family:'Source Serif 4', serif;
+    margin: 4px;
+    
+}
+
+
+.hundered{
+    width:200px;
+    background-color: aqua;
+}
+
+
+.fifty{
+    width: 180px;
+    background-color: blue;
+}
+
+.t5{
+    width: 50px;
+    background-color: yellow;
+}
